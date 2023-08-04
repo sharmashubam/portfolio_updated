@@ -30,6 +30,8 @@ body {
   box-sizing: border-box;
 }
 
+/* card buildspace */
+
 .card {
   width: 100vw;
   height: 100vh;
@@ -59,4 +61,96 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+/* theme  */
+
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-theme {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.container {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .sticky-div {
+    position: sticky;
+    top: 100px;
+  }
+}
+
+/* animation of sidebar */
+
+@media (max-width:1090px) {
+  .navbar {
+    border-bottom-left-radius: 100%;
+    transition: all 0.4s ease;
+  }
+}
+
+
+/* hamburger code */
+
+.hamburger,
+.bar {
+  position: fixed;
+}
+
+.hamburger {
+  display: block;
+  top: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  border: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background: 0 0;
+
+}
+
+.bar {
+  top: 3px;
+  background: #f3efef;
+  width: 100%;
+  height: 3px;
+  transition: all .3s ease-in;
+}
+
+#bar2 {
+  top: 11px;
+  width: 80%;
+}
+
+#bar3 {
+  top: 19px;
+  width: 60%;
+}
+
+.navigation.active {
+  right: 10;
+}
+
+.hamburger.open #bar1 {
+  background-color: #fff;
+  transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #bar2 {
+  background-color: transparent;
+}
+
+.hamburger.open #bar3 {
+  background-color: #fff;
+  transform: rotate(-45deg) translate(6px, -5px);
+  width: 100%;
 }

@@ -14,5 +14,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+
+
+  // cv button hover
+  variants: {
+    extend: {
+      opacity: ['hover'],
+    },
+  },
+
+  plugins: [
+    
+  ],
 }

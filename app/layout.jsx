@@ -1,4 +1,3 @@
-import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import { ThemeProvider } from './components/ThemeContext'
 import './globals.css'
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
         <ThemeProvider >
           <Navbar />
           {children}
-          <Footer />
         </ThemeProvider>
 
       </body>

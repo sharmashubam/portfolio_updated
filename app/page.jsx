@@ -1,5 +1,7 @@
 import React from 'react'
-import Hero1 from './components/Hero1'
+import Hero1 from './components/Hero'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 const HomePage = () => {
   return (
@@ -11,17 +13,17 @@ const HomePage = () => {
             <Hero1 />
           </div>
         </div>
-        
-        <div className="card">card
-          <img src='https://images4.alphacoders.com/973/9736.jpg' />
+
+        <div className="card">
+          <img src='https://4kwallpapers.com/images/walls/thumbs_2t/12183.jpg' />
           <div className="card-content">
-            another div
+            <Skills />
           </div>
         </div>
         <div className="card">
-          <img src="https://wallpapersmug.com/download/3840x2160/d55e88/satoru-gojo-4k.jpeg" alt="" />
+          <img src="https://w.forfun.com/fetch/ee/ee356e62c87dcd8544a0ec5bbd86b15a.jpeg" />
           <div className="card-content">
-            this is also a div
+            <Contact />
           </div>
         </div>
       </div>
