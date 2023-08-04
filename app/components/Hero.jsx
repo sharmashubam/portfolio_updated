@@ -10,7 +10,6 @@ import {
     FiArrowDown,
 } from 'react-icons/fi';
 import React from 'react';
-import ScrollIntoView from 'react-scroll-into-view'
 
 
 const Hero1 = () => {
