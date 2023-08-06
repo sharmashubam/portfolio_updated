@@ -1,13 +1,11 @@
 'use client'
 import { motion } from 'framer-motion';
 import {
-    FiArrowRight,
     FiInstagram,
     FiTwitter,
     FiGithub,
     FiMail,
     FiFacebook,
-    FiArrowDown,
 } from 'react-icons/fi';
 import React from 'react';
 

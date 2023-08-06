@@ -36,7 +36,7 @@ const Skills = () => {
                         <div className='flex flex-wrap gap-4 mt-4'>
                             {['HTML', 'CSS3', 'ReactJS', 'Git and Github', 'ExpressJS', 'NodeJS', 'NextJS', 'Tailwind CSS', 'JavaScript', 'MongoDB'].map((val, x) => {
                                 return (
-                                    <div key={x} className='px-3 py-2 text-lg font-medium rounded-lg bg-transparent backdrop-blur-xl'>
+                                    <div key={x} className='px-3 py-2 md:text-lg text-sm  font-medium rounded-lg bg-transparent backdrop-blur-xl'>
                                         {val}
                                     </div>
                                 );
