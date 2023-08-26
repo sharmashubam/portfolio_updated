@@ -1,11 +1,8 @@
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { FiMoon, FiSun } from 'react-icons/fi';
-import { useTheme } from './ThemeContext';
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useTheme();
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => {
@@ -20,12 +17,6 @@ const Navbar = () => {
                     <div className='justify-center items-center gap-4 flex'>
                         <Link href='/projects'>projects</Link>
                         <Link href='/blogs'>blogs</Link>
-                        <button
-                            className='flex items-center justify-center w-8 h-8 rounded-full border border-gray-500'
-                            onClick={toggleTheme} // Toggle the theme on button click
-                        >
-                            {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}
-                        </button>
                     </div>
                 </ul>
             </div>
@@ -43,7 +34,7 @@ const Navbar = () => {
                     <Link href='/' className='ml-[20%]  px-3 py-1'>Home</Link>
                     <Link href='/projects' className='  ml-[20%] px-3 py-1'>Projects</Link>
                     <Link href='/blogs' className='ml-[20%] px-3 py-1'>Blogs</Link>
-                    <li className='ml-[28%] pr-3 py-2'> {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}</li>
+                    {/* <li className='ml-[28%] pr-3 py-2'> {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}</li> */}
                 </ul>
             </div>
 

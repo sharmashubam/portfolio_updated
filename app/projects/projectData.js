@@ -30,7 +30,8 @@ const projectsData = [
     name: 'Mail Classifier',
     description: '',
     githubLink: 'https://github.com/sharmashubam/mail_classifier',
-    dom: 'ml'
+    img: 'mail.png',
+    dom: 'ml',
   },
   {
     name: 'inaparkonabeach',

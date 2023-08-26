@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero1 from './components/Hero'
+import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 
@@ -8,9 +8,10 @@ const HomePage = () => {
     <>
       <div>
         <div className="card">
-          <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwYW5pbWV8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt='' />
+        <img src="https://w.forfun.com/fetch/ee/ee356e62c87dcd8544a0ec5bbd86b15a.jpeg" />
+
           <div className="card-content">
-            <Hero1 />
+            <Hero />
           </div>
         </div>
 
@@ -21,8 +22,10 @@ const HomePage = () => {
           </div>
         </div>
         <div className="card">
-          <img src="https://w.forfun.com/fetch/ee/ee356e62c87dcd8544a0ec5bbd86b15a.jpeg" />
+        <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwYW5pbWV8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt='' />
+
           <div className="card-content">
+            
             <Contact />
           </div>
         </div>
